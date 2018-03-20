@@ -1,0 +1,14 @@
+uuid: 2c98f903-4b65-49a2-ba0c-c708d45f5763
+name: 'Proyecto Drupal Fabio Diaz'
+mail: fabioedp15@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
