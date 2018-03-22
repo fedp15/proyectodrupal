@@ -1,0 +1,21 @@
+uuid: 8105e09f-b0ea-4c02-897f-f8b8ae2d215a
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: 2
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access in-place editing'
+  - 'access site-wide contact form'
+  - 'create event content'
+  - 'create url aliases'
+  - 'delete event revisions'
+  - 'delete own event content'
+  - 'edit any event content'
+  - 'revert event revisions'
+  - 'use text format editorial_wysiwyg'
+  - 'view event revisions'
+  - 'view the administration theme'
