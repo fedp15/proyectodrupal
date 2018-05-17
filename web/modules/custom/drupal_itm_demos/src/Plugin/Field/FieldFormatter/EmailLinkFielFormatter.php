@@ -45,7 +45,7 @@ class EmailLinkFielFormatter extends FormatterBase {
    */
   protected function viewValue(FieldItemInterface $item) {
     $url = Url::fromUri('mailto:' . $item->value);
-    $link = Link::fromTextAndUrl($this->t('Send Email',$url);
+    $link = Link::fromTextAndUrl($this->t('Send Email'), $url);
     return $link->toString();
   }
 
