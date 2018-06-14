@@ -1,0 +1,10 @@
+
+drupal_itm_demos.configuration_form:
+  path: 'admin/config/drupal-itm-configuration'
+  defaults:
+    _form: '\Drupal\drupal_itm_demos\Form\ConfigurationForm'
+    _title: 'ConfigurationForm'
+  requirements:
+    _permission: 'access demo configuration'
+  options:
+    _admin_route: TRUE
